@@ -17,7 +17,7 @@ public class Main {
 		new Window(core, Finals.WINDOW_SIZE[0], Finals.WINDOW_SIZE[1], Finals.TITLE, Finals.RESIZABLE, Finals.FULLSCREEN, Finals.VSYNC, Finals.LWJGL_WINDOW);
 		new EventHandler(core);
 		new Base(core);
-		core.setState(Finals.STATES[3]);
+		core.setState(Finals.STATES[2]);
 		core.getEngine().start();
 	}
 	
@@ -34,11 +34,9 @@ public class Main {
 	}
 	
 	public static void initializeStates() {
-		/*
 		for(int i = 0; i < Finals.STATES.length; i++) {
 			Finals.STATES[i].init(core, core.getGraphics());
 		}
-		*/
 	}
 	
 	

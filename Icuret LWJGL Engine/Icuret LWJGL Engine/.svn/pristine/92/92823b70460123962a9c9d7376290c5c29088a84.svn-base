@@ -2,7 +2,6 @@ package icuret;
 
 import icuret.state.State;
 import icuret.state.StateDisplayList;
-import icuret.state.StatePixels;
 import icuret.state.StateTest;
 import icuret.state.StateWorld;
 
@@ -19,6 +18,6 @@ public class Finals {
 	public static boolean VSYNC = true;
 	public static boolean LWJGL_WINDOW = true;
 	
-	public static final State[] STATES = {new StateTest(), new StateDisplayList(), new StateWorld(), new StatePixels()};
+	public static final State[] STATES = {new StateTest(), new StateDisplayList(), new StateWorld()};
 	
 }
